@@ -886,6 +886,7 @@ input {
 	display: flex;
 	align-items: center;
 	margin-bottom: 30px;
+	cursor: pointer;
 }
 
 .modal-form-label::before {
