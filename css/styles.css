@@ -278,15 +278,11 @@ address {
 .advantages-icon-svg {
 	width: 70px;
 	height: 70px;
-	/* padding-top: 25px;
-	padding-bottom: 25px;
-	padding-left: 102, 34px;
-	padding-right: 102, 34px; */
 }
 
-.advantages-item img {
+/* .advantages-item img {
 	display: none;
-}
+} */
 
 .advantages-item-title {
 	margin-bottom: 10px;
@@ -785,13 +781,11 @@ address {
 	font-size: 20px;
 	line-height: 1.15;
 	text-align: center;
-
 	color: #212121;
 }
 .modal-form {
 	display: flex;
 	flex-direction: column;
-	/* width: 448px; */
 	margin-right: auto;
 	margin-left: auto;
 	padding-top: 0;
