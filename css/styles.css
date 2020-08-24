@@ -1,4 +1,4 @@
-:root {
+/* :root {
 	--primary-text-color: #212121;
 	--title-text-color: #757575;
 	--accent-color: #2196f3;
@@ -7,8 +7,8 @@
 	--footer-bg-color: #2f303a;
 	--logo-dark-color: #000000;
 	--section-bg-color: #f5f4fa;
-}
-
+} */
+/* 
 html {
 	box-sizing: border-box;
 }
@@ -46,23 +46,23 @@ address {
 	font-family: "Roboto", sans-serif;
 	line-height: 1.714;
 	letter-spacing: 0.03em;
-	color: var(--title-text-color);
-	background-color: var(--white-color);
-}
+	color: $title-text-color;;
+	background-color: $white-color;;
+} */
 
-.header {
+/* .header {
 	display: flex;
 	border-bottom: 1px solid #ececec;
-}
+} */
 
-.container {
+/* .container {
 	width: 1200px;
 	margin-left: 0 auto;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 0 auto;
-}
-.header .container {
+} */
+/* .header .container {
 	display: flex;
 	align-items: center;
 }
@@ -77,23 +77,23 @@ address {
 
 .header-address-item:hover,
 .header-address-item:focus {
-	fill: var(--accent-color);
-}
+	fill: $accent-color;;
+} */
 
 /* navigation */
 
-.navigation {
+/* .navigation {
 	display: flex;
 	align-items: center;
 	height: 80px;
-}
+} */
 
 /* logo */
-
+/* 
 .logo {
 	text-decoration: none;
 	margin-right: 93px;
-	color: var(--logo-dark-color);
+	color: $logo-dark-color;;
 	align-items: center;
 
 	font-family: "Raleway", sans-serif;
@@ -103,19 +103,19 @@ address {
 }
 
 .logo-accent {
-	color: var(--accent-color);
+	color: $accent-color;;
 }
 .logo-footer {
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
 	font-size: 24px;
 	letter-spacing: 1.2;
-	color: var(--white-color);
-}
+	color: $white-color;;
+} */
 
 /* site-nav */
 
-.site-nav {
+/* .site-nav {
 	display: flex;
 }
 
@@ -126,13 +126,13 @@ address {
 
 .site-nav-item:last-child {
 	margin-right: 0;
-}
+} */
 
-.site-nav .link {
+/* .site-nav .link {
 	display: block;
 	position: relative;
 	text-decoration: none;
-	color: var(--primary-text-color);
+	color: $primary-text-color;;
 	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	font-weight: 500;
 	font-size: 14px;
@@ -142,10 +142,10 @@ address {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-	color: var(--accent-color);
-}
+	color: $accent-color;;
+} */
 
-.site-nav .link::after {
+/* .site-nav .link::after {
 	display: block;
 	position: absolute;
 	left: 0;
@@ -155,27 +155,27 @@ address {
 	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	width: -webkit-fill-available;
 	height: 4px;
-	background-color: var(--accent-color);
+	background-color: $accent-color;;
 	border-radius: 2px;
 }
 
 .site-nav .link:hover::after,
 .site-nav .link:focus::after {
 	opacity: 1;
-}
+} */
 
-.current .link::after {
+/* .current .link::after {
 	opacity: 1;
 }
 .current .link {
-	color: var(--accent-color);
-}
+	color: $accent-color;;
+} */
 
 /* address */
 
-.address .link {
+/* .address .link {
 	text-decoration: none;
-	color: var(--title-text-color);
+	color: $title-text-color;;
 	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 	font-weight: 500;
@@ -190,7 +190,7 @@ address {
 
 .address .link:hover,
 .address .link:focus {
-	color: var(--accent-color);
+	color: $accent-color;;
 }
 
 .address {
@@ -202,12 +202,12 @@ address {
 	line-height: 1.71;
 }
 .address-text {
-	color: var(--primary-text-color);
-}
+	color: $primary-text-color;;
+} */
 
 /* секция - герой */
 
-.hero {
+/* .hero {
 	margin-right: auto;
 	margin-left: auto;
 	padding: 200px 0;
@@ -219,7 +219,7 @@ address {
 }
 
 .hero-title {
-	color: var(--white-color);
+	color: $white-color;;
 
 	font-weight: 900;
 	font-size: 44px;
@@ -227,11 +227,11 @@ address {
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
-}
+} */
 
 /* общий стиль для  секций и заголовков h2 */
 
-.section {
+/* .section {
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
@@ -242,12 +242,12 @@ address {
 	font-size: 36px;
 	line-height: 1.16;
 	text-align: center;
-	color: var(--primary-text-color);
-}
+	color: $primary-text-color;;
+} */
 
 /* секция - advantages -- наши преимущества */
 
-.advantages {
+/* .advantages {
 	padding-bottom: 0;
 }
 
@@ -280,9 +280,6 @@ address {
 	height: 70px;
 }
 
-/* .advantages-item img {
-	display: none;
-} */
 
 .advantages-item-title {
 	margin-bottom: 10px;
@@ -291,12 +288,12 @@ address {
 	font-size: 14px;
 	line-height: 1.14;
 	text-transform: uppercase;
-	color: var(--primary-text-color);
-}
+	color: $primary-text-color;;
+} */
 
 /* секция--prodact - продукт */
 
-.product-list {
+/* .product-list {
 	display: flex;
 	flex-flow: row;
 	justify-content: space-between;
@@ -308,7 +305,7 @@ address {
 	font-size: 36px;
 	line-height: 1.16;
 	text-align: center;
-	color: var(--primary-text-color);
+	color: $primary-text-color;;
 }
 
 .product-subtitle {
@@ -317,7 +314,7 @@ address {
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
-	color: var(--white-color);
+	color: $white-color;;
 	text-transform: uppercase;
 }
 
@@ -333,11 +330,11 @@ address {
 
 .product-item {
 	position: relative;
-}
+} */
 /* секция - наша команда */
 
 .team {
-	background-color: var(--section-bg-color);
+	background-color: $section-bg-color;
 }
 
 .team-list {
@@ -357,7 +354,7 @@ address {
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	background-color: var(--white-color);
+	background-color: $white-color;
 }
 
 .team-item-title {
@@ -366,7 +363,7 @@ address {
 	font-size: 36px;
 	line-height: 1.16;
 	text-align: center;
-	color: var(--primary-text-color);
+	color: $primary-text-color;
 }
 
 .team-caption {
@@ -375,7 +372,7 @@ address {
 	line-height: 1.18;
 	text-align: center;
 	padding-bottom: 10px;
-	color: var(--primary-text-color);
+	color: $primary-text-color;
 }
 
 .team-text {
@@ -387,14 +384,14 @@ address {
 }
 
 /* секция - постоянные клиенты */
-
+/* 
 .clients-item-title {
 	margin-bottom: 50px;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.16;
 	text-align: center;
-	color: var(--primary-text-color);
+	color: $primary-text-color;;
 }
 
 .clients-item-list {
@@ -426,17 +423,17 @@ address {
 	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-item a:hover {
-	border-color: var(--accent-color);
+	border-color: $accent-color;;
 }
 
 .clients-item a:hover .clients-svg,
 .clients-item a:focus .clients-svg {
-	fill: var(--accent-color);
-}
+	fill: $accent-color;;
+} */
 
 /* ссылки на социальные сети */
 
-.team-socials-list {
+/* .team-socials-list {
 	display: flex;
 	justify-content: center;
 }
@@ -463,23 +460,23 @@ address {
 
 .socials-link:hover,
 .socials-link:focus {
-	background-color: var(--accent-color);
+	background-color: $accent-color;
 }
 
 .team-socials-item:hover .socials-link-icon {
 	fill: #ffffff;
 	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* FOOTER */
-
+/* 
 .footer {
 	display: flex;
 	align-items: center;
 }
 
 .box {
-	background-color: var(--footer-bg-color);
+	background-color: $footer-bg-color;;
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
@@ -498,12 +495,12 @@ address {
 	margin-right: 93px;
 }
 .box-link {
-	color: var(--white-color);
+	color: $white-color;;
 	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .box-link .link:hover,
 .box-link .link:focus {
-	color: var(--accent-color);
+	color: $accent-color;;
 	text-decoration: none;
 }
 
@@ -515,7 +512,7 @@ address {
 	background-color: rgba(255, 255, 255, 0.1);
 }
 .footer-socials-item svg {
-	fill: var(--white-color);
+	fill: $white-color;;
 }
 .footer-socials-item:not(:last-child) {
 	margin-right: 10px;
@@ -528,7 +525,7 @@ address {
 	line-height: 1.14;
 	margin-bottom: 20px;
 	text-transform: uppercase;
-	color: var(--white-color);
+	color: $white-color;;
 }
 .js-speaker-form {
 	display: flex;
@@ -542,7 +539,7 @@ address {
 	line-height: 1.14;
 	margin-bottom: 20px;
 	text-transform: uppercase;
-	color: var(--white-color);
+	color: $white-color;;
 }
 
 .mail-form {
@@ -552,13 +549,13 @@ address {
 	box-sizing: border-box;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 	border-radius: 4px;
-	background-color: var(--footer-bg-color);
+	background-color: $footer-bg-color;;
 	padding-left: 16px;
 	margin-right: 12px;
-}
+} */
 
 /* button */
-
+/* 
 .footer-button {
 	display: inline-flex;
 	align-items: center;
@@ -568,9 +565,9 @@ address {
 	padding-right: 28px;
 	padding-bottom: 10px;
 	padding-left: 29px;
-	background: var(--accent-color);
-	border-color: var(--accent-color);
-	color: var(--white-color);
+	background: $accent-color;;
+	border-color: $accent-color;;
+	color: $white-color;;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	border: 0;
@@ -578,11 +575,11 @@ address {
 }
 
 .icon-send-svg {
-	fill: var(--white-color);
+	fill: $white-color;;
 	margin-left: 10px;
-}
+} */
 
-.hero-button {
+/* .hero-button {
 	width: 200px;
 	height: 50px;
 	padding: 10px 32px;
@@ -592,20 +589,20 @@ address {
 	border-radius: 4px;
 	text-decoration: none;
 
-	color: var(--white-color);
-	background-color: var(--accent-color);
-	border-color: var(--accent-color);
+	color: $white-color;;
+	background-color: $accent-color;;
+	border-color: $accent-color;;
 	font-family: "Roboto", sans-serif;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
 	letter-spacing: 0.03em;
 	cursor: pointer;
-}
+} */
 
 /* portfolio page */
 
-.filter-button-list {
+/* .filter-button-list {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 50px;
@@ -613,10 +610,10 @@ address {
 
 .filter-button:hover,
 .filter-button:focus {
-	color: var(--white-color);
-	background-color: var(--accent-color);
+	color: $white-color;;
+	background-color: $accent-color;;
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-	border-color: var(--accent-color);
+	border-color: $accent-color;;
 }
 
 .filter-button {
@@ -624,17 +621,17 @@ address {
 	padding-right: 22px;
 	padding-bottom: 6px;
 	padding-left: 22px;
-	border: 1px solid var(--section-bg-color);
+	border: 1px solid $section-bg-color;;
 	border-radius: 4px;
-	background-color: var(--section-bg-color);
+	background-color: $section-bg-color;;
 	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-button-item:not(:last-child) {
 	margin-right: 8px;
-}
+} */
 
-.portfolio-list {
+/* .portfolio-list {
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -664,13 +661,13 @@ address {
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
-	color: var(--primary-text-color);
+	color: $primary-text-color;;
 }
 .portfolio-item-caption {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.87;
-	color: var(--title-text-color);
+	color: $title-text-color;;
 }
 .portfolio-item:hover .portfolio-item-text,
 .portfolio-item:focus .portfolio-item-text {
@@ -694,7 +691,7 @@ address {
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 1.5;
-	color: var(--white-color);
+	color: $white-color;;
 	background: rgba(33, 150, 243, 0.9);
 	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -708,10 +705,10 @@ address {
 	padding-left: 24px;
 	padding-bottom: 20px;
 	padding-right: 24px;
-}
+} */
 
 /* ========== МОДАЛЬНОЕ ОКНО ========= */
-
+/* 
 .backdrop {
 	position: fixed;
 	top: 0;
@@ -747,7 +744,7 @@ address {
 	border-radius: 50%;
 	margin-top: 8px;
 	margin-right: 8px;
-	background-color: var(--white-color);
+	background-color: $white-color;;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	cursor: pointer;
 }
@@ -757,11 +754,11 @@ address {
 }
 
 .close-button:hover {
-	border-color: var(--accent-color);
+	border-color: $accent-color;;
 }
 
 .close-button:hover .close-button-svg {
-	fill: var(--accent-color);
+	fill: $accent-color;;
 }
 .is-hidden {
 	opacity: 0;
@@ -806,15 +803,15 @@ address {
 }
 
 .modal-form-list:focus-within svg {
-	fill: var(--accent-color);
+	fill: $accent-color;;
 }
 
 .modal-form-text:focus {
-	border-color: var(--accent-color);
+	border-color: $accent-color;;
 }
 
 .modal-textarea:focus-within {
-	border-color: var(--accent-color);
+	border-color: $accent-color;;
 }
 
 textarea {
@@ -862,9 +859,9 @@ input {
 	padding-left: 56px;
 	margin-left: auto;
 	margin-right: auto;
-	background: var(--accent-color);
-	border-color: var(--accent-color);
-	color: var(--white-color);
+	background: $accent-color;;
+	border-color: $accent-color;;
+	color: $white-color;;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	border: 0;
@@ -891,7 +888,7 @@ input {
 	display: block;
 	width: 16px;
 	height: 15px;
-	border: 1px solid var(--primary-text-color);
+	border: 1px solid $primary-text-color;;
 	border-radius: 4px;
 	margin-right: 8.38px;
 }
@@ -912,14 +909,14 @@ input {
 	left: 1px;
 	top: 1px;
 	border-radius: 2px;
-	fill: var(--white-color);
+	fill: $white-color;;
 }
 
 .modal-form-checkbox:focus ~ .check-svg {
-	background-color: var(--accent-color);
+	background-color: $accent-color;;
 }
 
 .modal-form-link {
-	color: var(--accent-color);
+	color: $accent-color;;
 	text-decoration: underline;
-}
+} */
