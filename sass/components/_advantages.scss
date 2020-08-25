@@ -10,9 +10,10 @@
 .advantages-item {
 	margin-right: 30px;
 	width: 270px;
-}
-.advantages-item:last-child {
-	margin-right: 0;
+
+	&:last-child {
+		margin-right: 0;
+	}
 }
 
 .advantages-icon {
@@ -33,7 +34,6 @@
 
 .advantages-item-title {
 	margin-bottom: 10px;
-
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;

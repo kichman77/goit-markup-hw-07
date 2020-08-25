@@ -7,15 +7,15 @@
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
+
+	&:hover,
+	&:focus {
+		color: $accent-color;
+	}
 }
 
 .header-address-item:last-child {
 	margin-left: 30px;
-}
-
-.address .link:hover,
-.address .link:focus {
-	color: $accent-color;
 }
 
 .address {

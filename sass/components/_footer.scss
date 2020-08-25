@@ -25,11 +25,12 @@
 .box-link {
 	color: $white-color;
 	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.box-link .link:hover,
-.box-link .link:focus {
-	color: $accent-color;
-	text-decoration: none;
+
+	& .link:hover,
+	& .link:focus {
+		color: $accent-color;
+		text-decoration: none;
+	}
 }
 
 .footer-socials-list {

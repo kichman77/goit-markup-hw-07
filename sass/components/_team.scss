@@ -47,37 +47,8 @@
 	text-align: center;
 	margin-bottom: 16px;
 }
+
 .team-socials-list {
 	display: flex;
 	justify-content: center;
-}
-
-.socials-link {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 44px;
-	height: 44px;
-	border-radius: 50%;
-	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.socials-link-icon {
-	width: 20px;
-	height: 20px;
-	fill: #afb1b8;
-	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.team-socials-item:not(:last-child) {
-	margin-right: 10px;
-}
-
-.socials-link:hover,
-.socials-link:focus {
-	background-color: $accent-color;
-}
-
-.team-socials-item:hover .socials-link-icon {
-	fill: #ffffff;
-	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
